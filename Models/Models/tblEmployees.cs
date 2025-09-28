@@ -18,5 +18,22 @@ namespace Models.Models
         public int? DepartmentID { get; set; }
         public string? EmploymentStatus { get; set; }
         public DateTime? HireDate { get; set; }
+        public string? MemberFirstName { get; set; }
+        public string? MemberLastName{ get; set; }
+        public string? MemberGender { get; set; }
+        public string? MemberAddress { get; set; }
+        public string? MemberPhoneNumber { get; set; }
+        public string? EducationalAttainment { get; set; }
+        public string? InstitutionName { get; set; }
+        public DateTime? YearGraduated { get; set; }
+        public string? CourseName { get; set; }
+        public string? PreviousPosition { get; set; }
+        public string? OfficeName { get; set; }
+        public DateTime? DurationStart { get; set; }
+        public DateTime? DurationEnd { get; set; }
+        public string? AgencyName { get; set; }
+        public string? Supervisor { get; set; }
+        public string? Accomplishment { get; set; }
+        public string? Summary { get; set; }
     }
 }
