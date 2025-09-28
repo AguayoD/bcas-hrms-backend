@@ -34,6 +34,6 @@ namespace Models.Models
         public string? AgencyName { get; set; }
         public string? Supervisor { get; set; }
         public string? Accomplishment { get; set; }
-        public string? Summary { get; set; }
+        public string? Summary{ get; set; }
     }
 }
